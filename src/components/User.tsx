@@ -1,4 +1,4 @@
-import { Link, redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { UserProps } from '../types/user';
 import { MdLocationPin } from 'react-icons/md';
 import { BsSearch } from 'react-icons/bs';
