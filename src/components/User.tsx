@@ -39,11 +39,13 @@ const User = ({
         </div>
       </div>
       {bio && <div className={classes.bio}>{bio}</div>}
-      <span>-</span>
-      <Link className={classes.projects} to={`/repos/${login}`}>
-        <BsSearch />
-        <span>Últimos projetos</span>
-      </Link>
+      <div className={classes.repos}>
+        <span>-</span>
+        <Link className={classes.projects} to={`/repos/${login}`}>
+          <BsSearch />
+          <span>Últimos projetos</span>
+        </Link>
+      </div>
     </div>
   );
 };

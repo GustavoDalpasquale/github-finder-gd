@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.userRepos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  width: 500px;
+}
+
+.container {
+  background-color: #2c2c2c;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name h2 {
+  font-size: 2rem;
+  font-family: 'Exo 2';
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+a .img,
+a .imgHomepage {
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #6262eb;
+}
+
+a:hover .img,
+a:hover .imgHomepage {
+  background-color: #6262eb;
+  transform: rotate(30deg);
+}
+
+.infosContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 200px;
+  background-color: #f2f3f4;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quantico';
+  font-size: 1rem;
+  gap: 5px;
+  margin-bottom: 1rem;
+}

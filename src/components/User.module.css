@@ -25,7 +25,7 @@
 }
 
 .loginUrl:hover {
-  color: #7070dd;
+  color: #6262eb;
 }
 
 .location {
@@ -47,6 +47,14 @@
   max-width: 300px;
   background-color: #f2f3f4;
   color: #121212;
+}
+
+.repos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .projects {
